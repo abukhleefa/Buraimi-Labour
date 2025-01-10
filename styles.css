@@ -1,0 +1,108 @@
+/* تثبيت العنوان */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    direction: rtl; /* النص يبدأ من اليمين */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* إضافة مسافة لتجنب تداخل المحتوى مع العنوان */
+main {
+    margin-top: 200px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    direction: rtl; /* النص يبدأ من اليمين */
+}
+
+/* تصميم الأقسام */
+.faq-category {
+    margin-bottom: 40px;
+    direction: rtl; /* النص يبدأ من اليمين */
+}
+
+.category-title {
+    font-size: 1.8rem;
+    color: #007bff;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    direction: rtl; /* النص يبدأ من اليمين */
+    text-align: right; /* محاذاة النص لليمين */
+}
+
+/* تصميم الأسئلة */
+.faq-section {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #f1f9ff;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    direction: rtl; /* النص يبدأ من اليمين */
+    text-align: right; /* محاذاة النص لليمين */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* تأثير عند التمرير */
+.faq-section:hover {
+    background-color: #e3f2fd;
+    transform: scale(1.02);
+}
+
+.faq-section h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #007bff;
+    flex: 1; /* السماح للنص بالتمدد */
+    text-align: right; /* محاذاة النص لليمين */
+}
+
+/* رمز المثلث */
+.faq-section::before {
+    content: '🔽'; /* مثلث متجه للأسفل */
+    font-size: 2rem;
+    color: #007bff;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* تغيير اتجاه المثلث عند إظهار الإجابة */
+.faq-section.open::before {
+    transform: rotate(180deg); /* المثلث يشير للأعلى */
+}
+
+/* تصميم الإجابة بحيث تظهر أسفل السؤال */
+.faq-section p {
+    display: none;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+    direction: rtl; /* النص يبدأ من اليمين */
+    text-align: right; /* محاذاة النص لليمين */
+    width: 100%;
+}
+
+/* عند فتح الإجابة */
+.faq-section.open p {
+    display: block;
+}
