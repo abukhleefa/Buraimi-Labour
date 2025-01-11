@@ -4,7 +4,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #007bff;
+    background-color: #3464b0!important;
     color: white;
     padding: 20px 10px;
     text-align: center;
@@ -36,15 +36,39 @@ main {
     margin-bottom: 30px; /* المسافة بين كل قسم وقسم*/
     direction: rtl; /* النص يبدأ من اليمين */
 }
+.title-main{
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+    direction: rtl; /* النص يبدأ من اليمين */
+    display: block;
+    font-size: 190%;
+    color: #ffffff;
+    
+}
+.logo1{
+  padding: 1px;
+  width: 100px;
+}
+
+.parent {
+    text-align: center;
+  }
+  .child {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
 
 .category-title {
     font-size: 1.5rem; /* حجم خط عناوين الأقسام*/
     color: white;
     width: 100%;
+    padding: 10px 0;
     border-bottom: 2px solid #ddd; /* حجم ظل خلفية عنوان القسم*/
     padding-bottom: 15px; /* ارتفاع خلفية عنوان القسم*/
     margin-bottom: 5px; /* المسافة بين عنوان القسم وأول إجابة*/
-    background-color: #d8a005;
+    background-color: #f39d52;
     direction: rtl; /* النص يبدأ من اليمين */
     text-align: center; /* محاذاة النص لليمين */
 }
@@ -65,25 +89,37 @@ main {
     flex-wrap: wrap;
 }
 
+.textc{
+    color: #000000;
+    text-align: left;
+}
+
 /* تأثير عند التمرير */
 .faq-section:hover {
     background-color: #afb7bb;
     transform: scale(1.02);
 }
 
+.faq-section.open {
+    
+    background-color: #afb7bb;
+}
+
+
 .faq-section h3 {
     margin: 0;
     font-size: 1rem;
-    color: #007bff;
+    color: #000000;
     flex: 1; /* السماح للنص بالتمدد */
     text-align: right; /* محاذاة النص لليمين */
+    font-weight: bold;
 }
 
 /* رمز المثلث */
 .faq-section::before {
     content: '🔽'; /* مثلث متجه للأسفل */
     font-size: 2rem;
-    color: #007bff;
+    color: #3464b0!important;
     margin-left: 10px;
     transition: transform 0.3s ease;
 }
