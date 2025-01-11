@@ -33,27 +33,28 @@ main {
 
 /* تصميم الأقسام */
 .faq-category {
-    margin-bottom: 40px;
+    margin-bottom: 30px; /* المسافة بين كل قسم وقسم*/
     direction: rtl; /* النص يبدأ من اليمين */
 }
 
 .category-title {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* حجم خط عناوين الأقسام*/
     color: white;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-    background-color: #007bff;
+    width: 100%;
+    border-bottom: 2px solid #ddd; /* حجم ظل خلفية عنوان القسم*/
+    padding-bottom: 15px; /* ارتفاع خلفية عنوان القسم*/
+    margin-bottom: 5px; /* المسافة بين عنوان القسم وأول إجابة*/
+    background-color: #d8a005;
     direction: rtl; /* النص يبدأ من اليمين */
     text-align: right; /* محاذاة النص لليمين */
 }
 
 /* تصميم الأسئلة */
 .faq-section {
-    margin-bottom: 15px;
-    padding: 10px 15px;
-    border-radius: 8px;
-    background-color: #f1f9ff;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    background-color: #f5d670;
     transition: background-color 0.3s ease, transform 0.2s ease;
     cursor: pointer;
     direction: rtl; /* النص يبدأ من اليمين */
@@ -66,13 +67,13 @@ main {
 
 /* تأثير عند التمرير */
 .faq-section:hover {
-    background-color: #e3f2fd;
+    background-color: #afb7bb;
     transform: scale(1.02);
 }
 
 .faq-section h3 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #007bff;
     flex: 1; /* السماح للنص بالتمدد */
     text-align: right; /* محاذاة النص لليمين */
@@ -97,7 +98,7 @@ main {
     display: none;
     margin-top: 10px;
     font-size: 1rem;
-    color: #555;
+    color: #000000;
     direction: rtl; /* النص يبدأ من اليمين */
     text-align: right; /* محاذاة النص لليمين */
     width: 100%;
