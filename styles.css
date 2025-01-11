@@ -3,11 +3,12 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     background-color: #3464b0!important;
-    color: white;
-    padding: 20px 10px;
-    text-align: center;
+    color: rgb(255, 255, 255);
+    
+
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     direction: rtl; /* النص يبدأ من اليمين */
@@ -17,12 +18,12 @@ header {
 
 /* إضافة مسافة لتجنب تداخل المحتوى مع العنوان */
 main {
-    margin-top: 175px;
+    margin-top: 150px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    background: rgb(0, 255, 47);
+    background: rgb(240, 240, 240);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     direction: rtl; /* النص يبدأ من اليمين */
@@ -35,34 +36,38 @@ main {
 }
 .title-main{
     padding: 1px 1px;
-    text-align: center;
     width: 100%;
     height: 100%;
     direction: rtl; /* النص يبدأ من اليمين */
     display: block;
-    font-size: 22px;
+    font-size: 25px;
 
+    color: #000000;
+
+    align-items: center;
+    text-align: center;
     vertical-align: middle;
-    line-height: 40px; 
-    color: #ffffff;
     
 }
 .logo1{
 
-  width: 85px;
-  height: 86px;
+  width: 100px;
+  height: 100px;
 
 }
 
 .grid-container-element { 
     display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 0px; 
-
+    grid-template-columns: 1fr 2fr; 
+    grid-gap: 1px; 
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
     width: 100%; 
 } 
 .grid-child-element { 
     margin: 10px; 
+    width: 90%;
 
 }
   
