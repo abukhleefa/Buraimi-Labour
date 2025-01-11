@@ -20,7 +20,7 @@ h1 {
 
 /* إضافة مسافة لتجنب تداخل المحتوى مع العنوان */
 main {
-    margin-top: 160px;
+    margin-top: 170px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -37,18 +37,18 @@ main {
     direction: rtl; /* النص يبدأ من اليمين */
 }
 .title-main{
-    padding: 10px 10px;
+    padding: 5px 5px;
     text-align: center;
     width: 100%;
-    direction: rtl; /* النص يبدأ من اليمين */
+    
     display: block;
-    font-size: 100%;
+    font-size: 15px;
     color: #ffffff;
     
 }
 .logo1{
   padding: 1px;
-  width: 100px;
+  width: 80px;
 }
 
 .parent {
