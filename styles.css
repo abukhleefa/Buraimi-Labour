@@ -7,11 +7,12 @@ header {
     width: 100%;
     background-color: #3464b0!important;
     color: rgb(255, 255, 255);
-    
-
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    direction: rtl; /* النص يبدأ من اليمين */
+
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 
@@ -51,25 +52,12 @@ main {
 }
 .logo1{
 
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 100%;
+  
 
 }
 
-.grid-container-element { 
-    display: grid; 
-    grid-template-columns: 1fr 2fr; 
-    grid-gap: 1px; 
-    align-items: center;
-    text-align: center;
-    vertical-align: middle;
-    width: 100%; 
-} 
-.grid-child-element { 
-    margin: 10px; 
-    width: 90%;
-
-}
   
 
 .category-title {
