@@ -46,7 +46,7 @@ main {
     margin-bottom: 5px; /* المسافة بين عنوان القسم وأول إجابة*/
     background-color: #d8a005;
     direction: rtl; /* النص يبدأ من اليمين */
-    text-align: right; /* محاذاة النص لليمين */
+    text-align: center; /* محاذاة النص لليمين */
 }
 
 /* تصميم الأسئلة */
