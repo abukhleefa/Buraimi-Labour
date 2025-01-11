@@ -20,7 +20,7 @@ h1 {
 
 /* إضافة مسافة لتجنب تداخل المحتوى مع العنوان */
 main {
-    margin-top: 150px;
+    margin-top: 160px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -96,7 +96,7 @@ main {
 
 /* تأثير عند التمرير */
 .faq-section:hover {
-    background-color: #afb7bb;
+    
     transform: scale(1.02);
 }
 
