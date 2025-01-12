@@ -117,6 +117,14 @@ main {
     text-align: right; /* محاذاة النص لليمين */
     font-weight: bold;
 }
+.faq-section p {
+ line-height: 1px;
+ position: relative;
+ right: 20px;
+ 
+}
+
+
 
 /* رمز المثلث */
 .faq-section::before {
@@ -137,13 +145,15 @@ main {
     display: none;
     margin-top: 10px;
     font-size: 1rem;
+    line-height: normal;
     color: #000000;
     direction: rtl; /* النص يبدأ من اليمين */
     text-align: right; /* محاذاة النص لليمين */
-    width: 100%;
+    width: 95%;
 }
 
 /* عند فتح الإجابة */
 .faq-section.open p {
     display: block;
+    margin-bottom: 0px;
 }
