@@ -19,7 +19,7 @@ header {
 
 /* إضافة مسافة لتجنب تداخل المحتوى مع العنوان */
 main {
-    margin-top: 150px;
+    margin-top: 115px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -158,4 +158,10 @@ main {
 .faq-section.open p {
     display: block;
     margin-bottom: 0px;
+}
+
+.UP {
+
+    text-align: center;
+
 }
