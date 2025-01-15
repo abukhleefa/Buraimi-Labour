@@ -26,9 +26,9 @@ A_A: "قسم الرعاية العمالية",
 
 		A_9: "- ينبغي على صاحب العمل دفع ثمن التذكرة والرسوم والغرامات ( إن وجدت)خلال 7 أيام من تاريخ موافقة الوزارة على إستكمال إجراءات تسجيل البلاغ و إلا يعتبر الطلب لاغيا.",
 
-		A_10: '- للاطلاع على آلية تسجيل طلب إلغاء بلاغ ترك العمل في الموقع الالكتروني لوزارة العمل يمكنك تنزيل الدليل التالي <a href="https://staff.mol.gov.om/DSMVD/CMS/WebSiteEServices/%D8%AE%D8%AF%D9%85%D8%A9%20%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%A8%D9%84%D8%A7%D8%BA%20%D8%AA%D8%B1%D9%83%20%D8%B9%D9%85%D9%84%20-%20%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A7%D9%93%D8%AA.pdf" target="_blank">(إضغط هنا)</a>',
+		A_10: '- للاطلاع على آلية تسجيل بلاغ ترك العمل في الموقع الالكتروني لوزارة العمل يمكنك تنزيل الدليل التالي <a href="https://staff.mol.gov.om/DSMVD/CMS/WebSiteEServices/%D8%AE%D8%AF%D9%85%D8%A9%20%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%A8%D9%84%D8%A7%D8%BA%20%D8%AA%D8%B1%D9%83%20%D8%B9%D9%85%D9%84%20-%20%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A7%D9%93%D8%AA.pdf" target="_blank">(إضغط هنا)</a>',
 
-		A_11: '- لبدء خدمة تسجيل طلب إلغاء بلاغ ترك العمل الخاص بالمنشآت <a href="https://www.mol.gov.om/eservices/employer/submitworkdesertionrequest/submitworkdesertionrequestlist" target="_blank">(إضغط هنا)</a>',
+		A_11: '- لبدء خدمة تسجيل بلاغ ترك العمل الخاص بالمنشآت <a href="https://www.mol.gov.om/eservices/employer/submitworkdesertionrequest/submitworkdesertionrequestlist" target="_blank">(إضغط هنا)</a>',
 
 
 	A_00: "طلب الغاء بلاغ ترك العمل (المنشآت)",
@@ -43,9 +43,9 @@ A_A: "قسم الرعاية العمالية",
 
 		A_05: "- يمكن للمستخدم متابعة طلب الالغاء من خلال رابط طلبات بلاغات ترك العمل بالنظام، حيث يوضح تفاصيل الطلب وحالته.",
 
-		A_06: '- للاطلاع على آلية تسجيل بلاغ ترك العمل في الموقع الالكتروني لوزارة العمل يمكنك تنزيل الدليل التالي <a href="https://staff.mol.gov.om/DSMVD/CMS/WebSiteEServices/24062024%20094044%20%D8%B5_fok005krfnsc3xf2ptjc5vec20245202494042%D8%AE%D8%AF%D9%85%D8%A9%20%D8%B7%D9%84%D8%A8%20%D8%A7%D9%95%D9%84%D8%BA%D8%A7%D8%A1%20%D8%A8%D9%84%D8%A7%D8%BA%20%D8%AA%D8%B1%D9%83%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20-%20%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A7%D9%93%D8%AA.pdf" target="_blank">(إضغط هنا)</a>',
+		A_06: '- للاطلاع على آلية تسجيل طلب إلغاء بلاغ ترك العمل في الموقع الالكتروني لوزارة العمل يمكنك تنزيل الدليل التالي <a href="https://staff.mol.gov.om/DSMVD/CMS/WebSiteEServices/24062024%20094044%20%D8%B5_fok005krfnsc3xf2ptjc5vec20245202494042%D8%AE%D8%AF%D9%85%D8%A9%20%D8%B7%D9%84%D8%A8%20%D8%A7%D9%95%D9%84%D8%BA%D8%A7%D8%A1%20%D8%A8%D9%84%D8%A7%D8%BA%20%D8%AA%D8%B1%D9%83%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20-%20%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%A7%D9%93%D8%AA.pdf" target="_blank">(إضغط هنا)</a>',
 
-		A_07: '- لبدء خدمة تسجيل بلاغ ترك العمل الخاص بالمنشآت <a href="https://www.mol.gov.om/eservices/employer/canceldesertionrequests/canceldesertionsrequestlist" target="_blank">(إضغط هنا)</a>',
+		A_07: '- لبدء خدمة تسجيل طلب إلغاء بلاغ ترك العمل الخاص بالمنشآت <a href="https://www.mol.gov.om/eservices/employer/canceldesertionrequests/canceldesertionsrequestlist" target="_blank">(إضغط هنا)</a>',
 
 
 
