@@ -24,7 +24,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    background: rgb(240, 240, 240);
+    background-color: #f0f0f0;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     direction: rtl; /* النص يبدأ من اليمين */
@@ -62,7 +62,7 @@ main {
 
 .category-title {
     font-size: 1.5rem; /* حجم خط عناوين الأقسام*/
-    color: white;
+    color: rgb(0, 0, 0);
     width: 100%;
     padding: 10px 0;
     border-bottom: 2px solid #ddd; /* حجم ظل خلفية عنوان القسم*/
@@ -165,3 +165,139 @@ main {
     text-align: center;
 
 }
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+  
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+  position: relative;
+  width: 100%;
+  color: #000000;
+  border: none;
+  background: none;
+  outline: none;
+  margin-bottom: 0px;
+  padding: 0apx 0px;
+  border-radius: 5px;
+  background-color: #f5d670;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  direction: rtl; /* النص يبدأ من اليمين */
+  text-align: right; /* محاذاة النص لليمين */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.accordion button .accordion-title {
+  padding: 10px 15px 10px 0;
+  font-weight: bold;
+  font-size: 15.5px;
+  
+  
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+  
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  
+  max-height: none;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+  background-color: #afb7bb;
+  
+
+  
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+  margin-bottom: 10px;
+  margin-top: -5px;
+  
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 15px 0;
+  margin-top: 10px;
+  width: 95%;
+  padding-right: 20px;
+  direction: rtl;
+  color: #000000;
+ 
+}
+
+
+
