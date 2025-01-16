@@ -61,7 +61,7 @@ main {
   
 
 .category-title {
-    font-size: 1.5rem; /* حجم خط عناوين الأقسام*/
+    font-size: 22px; /* حجم خط عناوين الأقسام*/
     color: rgb(0, 0, 0);
     width: 100%;
     padding: 10px 0;
@@ -73,6 +73,8 @@ main {
     text-align: center; /* محاذاة النص لليمين */
     padding: 10px 1px;
     border-radius: 5px;
+    font-family: 'font2', sans-serif;
+    line-height: 33px;
     
 }
 
@@ -219,14 +221,27 @@ main {
   flex-wrap: wrap;
 }
 
+@font-face {
 
+font-family: 'font1';
+src: url(fonts/Adobe\ Arabic\ Regular.ttf);
+
+}
+
+@font-face {
+
+  font-family: 'font2';
+  src: url(fonts/ArbFONTS-NotoKufiArabic-Bold.ttf);
+  
+  }
 
 .accordion button .accordion-title {
   padding: 10px 15px 10px 0;
   font-weight: bold;
-  font-size: 15.5px;
+  font-size: 26px;
   width: 90%;
-
+  font-family: 'font1', sans-serif;
+  color: #641e13;
 
 }
 
@@ -273,7 +288,7 @@ main {
   max-height: none;
   transition: all 200ms linear;
   will-change: opacity, max-height;
-  background-color: #afb7bb;
+  background-color: #dbdbdb;
   
 
   
@@ -289,7 +304,7 @@ main {
   
 }
 .accordion .accordion-content p {
-  font-size: 1rem;
+  font-size: 23px;
   font-weight: 300;
   margin: 15px 0;
   margin-top: 10px;
@@ -297,7 +312,7 @@ main {
   padding-right: 20px;
   direction: rtl;
   color: #000000;
- 
+  font-family: 'font1', sans-serif;
 }
 
 
