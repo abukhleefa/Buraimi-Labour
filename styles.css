@@ -237,7 +237,7 @@ src: url(fonts/Adobe\ Arabic\ Regular.ttf);
 
 .accordion button .accordion-title {
   padding: 10px 15px 10px 0;
-  font-weight: bold;
+  
   font-size: 26px;
   width: 90%;
   font-family: 'font1', sans-serif;
