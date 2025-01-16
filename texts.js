@@ -97,7 +97,7 @@ const JS_eLang =
 
 			B_B_7 : "- يمكن لمقدم الطلب طباعة الموافقة المبدئية لتصريح العمل والتوجه إلى شرطة عمان السلطانية لاستكمال إجراءات إصدار التأشيرة.",
 
-			B_B_8: '- للاطلاع على آلية تسجيل طلب لإصدار تصريح لمزاولة العمل الخاصة (المنشآت) في الموقع الالكتروني لوزارة العمل يمكنك تنزيل الدليل التالي <a href="https://staff.mol.gov.om/DSMVD/CMS/WebSiteEServices/commercial-work-permit_manual.pdf" target="_blank">(إضغط هنا)</a>',
+			B_B_8: '- للاطلاع على آلية تسجيل طلب لإصدار تصاريح لمزاولة العمل التجارية (المنشآت) في الموقع الالكتروني لوزارة العمل يمكنك تنزيل الدليل التالي <a href="https://staff.mol.gov.om/DSMVD/CMS/WebSiteEServices/commercial-work-permit_manual.pdf" target="_blank">(إضغط هنا)</a>',
 
 			B_B_9: '-لبدء خدمة تسجيل طلب إصدار تصاريح لمزاولة العمل التجاري (المنشأت) <a href="https://eservices.mol.gov.om/Wppa/list"_blank">(إضغط هنا)</a>',
 
