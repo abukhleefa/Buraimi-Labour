@@ -58,7 +58,7 @@ main {
 
 }
 
-  
+
 
 .category-title {
     font-size: 22px; /* حجم خط عناوين الأقسام*/
@@ -73,7 +73,7 @@ main {
     text-align: center; /* محاذاة النص لليمين */
     padding: 10px 1px;
     border-radius: 5px;
-    font-family: 'font2', sans-serif;
+    font-family: 'font1', sans-serif;
     line-height: 33px;
     
 }
@@ -111,6 +111,7 @@ main {
     padding-bottom: 20px;
 
 }
+
 
 
 .faq-section h3 {
@@ -221,19 +222,21 @@ main {
   flex-wrap: wrap;
 }
 
-@font-face {
 
-font-family: 'font1';
-src: url(fonts/font1.ttf);
-
-}
 
 @font-face {
 
-  font-family: 'font2';
-  src: url(fonts/font2.ttf);
+  font-family: 'font1';
+  src: url(fonts/font1.ttf);
   
   }
+
+@font-face {
+
+font-family: 'font2';
+src: url(fonts/font2.ttf);
+
+}
 
 
 @font-face {
@@ -248,7 +251,7 @@ src: url(fonts/font1.ttf);
   
   font-size: 26px;
   width: 90%;
-  font-family: 'font1', sans-serif;
+  font-family: 'font2', sans-serif;
   color: #641e13;
 
 }
