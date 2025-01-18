@@ -224,14 +224,22 @@ main {
 @font-face {
 
 font-family: 'font1';
-src: url(fonts/Adobe\ Arabic\ Regular.ttf);
+src: url(fonts/font1.ttf);
 
 }
 
 @font-face {
 
   font-family: 'font2';
-  src: url(fonts/ArbFONTS-NotoKufiArabic-Bold.ttf);
+  src: url(fonts/font2.ttf);
+  
+  }
+
+
+@font-face {
+
+  font-family: 'font3';
+  src: url(fonts/font3.ttf);
   
   }
 
@@ -312,7 +320,7 @@ src: url(fonts/Adobe\ Arabic\ Regular.ttf);
   padding-right: 20px;
   direction: rtl;
   color: #000000;
-  font-family: 'font1', sans-serif;
+  font-family: 'font3', sans-serif;
 }
 
 
