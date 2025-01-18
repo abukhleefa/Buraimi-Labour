@@ -99,7 +99,7 @@ const JS_eLang =
 
 			B_B_8: '- للاطلاع على آلية تسجيل طلب لإصدار تصاريح لمزاولة العمل التجارية (المنشآت) في الموقع الالكتروني لوزارة العمل يمكنك تنزيل الدليل التالي <a href="https://staff.mol.gov.om/DSMVD/CMS/WebSiteEServices/commercial-work-permit_manual.pdf" target="_blank">(إضغط هنا)</a>',
 
-			B_B_9: '- لبدء خدمة تسجيل طلب إصدار تصاريح لمزاولة العمل التجاري (المنشأت) <a href="https://eservices.mol.gov.om/Wppa/list"_blank">(إضغط هنا)</a>',
+				B_B_9: '- لبدء خدمة تسجيل طلب إصدار تصاريح لمزاولة العمل التجاري (المنشأت) <a href="https://eservices.mol.gov.om/Wppa/list"_blank">(إضغط هنا)</a>',
 
 
 		B_C: "إرجاع العامل على رأس العمل (الأفراد)",
